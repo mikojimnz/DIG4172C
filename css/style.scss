@@ -16,13 +16,6 @@ h1 {
 }
 
 /* Classes */
-.navbar-brand {
-    margin-left: 12%;
-}
-
-.collapse.navbar-collapse {
-    margin-right: 12%;
-}
 
 .nav-item {
     font-size: 20px;
@@ -30,4 +23,15 @@ h1 {
 
 .navbar-dark .nav-item.active .nav-link {
     font-weight: 800;
+}
+
+/* Desktop Queries */
+@media screen and (min-width: $breakpoint-desktop) {
+    .navbar-brand {
+        margin-left: 12%;
+    }
+    
+    .collapse.navbar-collapse {
+        margin-right: 12%;
+    }
 }
