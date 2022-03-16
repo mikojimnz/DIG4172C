@@ -1,0 +1,28 @@
+/* Color Constants */
+/* Colors */
+/* Global Elements */
+html {
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  background-color: #0e1114;
+  color: #ffffff; }
+
+h1 {
+  font-weight: 800;
+  text-transform: uppercase; }
+
+/* Classes */
+.navbar-brand {
+  margin-left: 12%; }
+
+.collapse.navbar-collapse {
+  margin-right: 12%; }
+
+.nav-item {
+  font-size: 20px; }
+
+.navbar-dark .nav-item.active .nav-link {
+  font-weight: 800; }
+
+/*# sourceMappingURL=style.css.map */
