@@ -1,19 +1,55 @@
 /* Color Constants */
 /* Media Queries */
 /* Colors */
+@import url(all.css);
 /* Global Elements */
 html {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff; }
 
 body {
   background-color: #0e1114;
   color: #ffffff; }
 
+footer {
+  background-color: #021e50; }
+
 h1 {
   font-weight: 800;
   text-transform: uppercase; }
 
+nav {
+  background-color: #021e50; }
+
 /* Classes */
+.article-list-ver {
+  list-style: none;
+  padding-left: 0; }
+
+.article-list-ver > li {
+  padding-bottom: 10px; }
+
+.article-item {
+  color: #ffffff; }
+
+.article-item:hover {
+  color: #999999;
+  text-decoration: none; }
+
+.card {
+  background-color: rgba(235, 235, 235, 0.25); }
+
+.card-title, .card-text {
+  color: #ffffff; }
+
+.card-subtitle {
+  color: rgba(255, 255, 255, 0.75); }
+
+.placeholder {
+  background-color: #efefef;
+  border: 4px gray solid;
+  padding: 15px; }
+
 .nav-item {
   font-size: 20px; }
 
@@ -23,9 +59,9 @@ h1 {
 /* Desktop Queries */
 @media screen and (min-width: 992px) {
   .navbar-brand {
-    margin-left: 12%; }
+    margin-left: 10%; }
 
   .collapse.navbar-collapse {
-    margin-right: 12%; } }
+    margin-right: 10%; } }
 
 /*# sourceMappingURL=style.css.map */

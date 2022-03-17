@@ -1,8 +1,10 @@
 @import "_variables";
+@import "all.css";
 
 /* Global Elements */
 html {
     font-family: 'Montserrat', sans-serif;
+    color: $fontPrimaryColor;
 }
 
 body {
@@ -10,12 +12,55 @@ body {
     color: $fontPrimaryColor;
 }
 
+footer {
+    background-color: $nasaDarkBlue;
+}
+
 h1 {
     font-weight: 800;
     text-transform: uppercase;
 }
 
+nav {
+    background-color: $nasaDarkBlue;
+}
+
 /* Classes */
+
+.article-list-ver {
+    list-style: none;
+    padding-left: 0;
+}
+
+.article-list-ver > li {
+    padding-bottom: 10px;
+}
+
+.article-item {
+    color: $fontPrimaryColor;
+}
+.article-item:hover {
+    color: $fontHoverColor;
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgba($nasaWhite, 0.25);
+}
+
+.card-title, .card-text {
+    color: $fontPrimaryColor;
+}
+
+.card-subtitle {
+    color: rgba($fontPrimaryColor, 0.75);
+}
+
+.placeholder {
+    background-color: #efefef;
+    border: 4px gray solid;
+    padding: 15px;
+}
 
 .nav-item {
     font-size: 20px;
@@ -28,10 +73,10 @@ h1 {
 /* Desktop Queries */
 @media screen and (min-width: $breakpoint-desktop) {
     .navbar-brand {
-        margin-left: 12%;
+        margin-left: 10%;
     }
     
     .collapse.navbar-collapse {
-        margin-right: 12%;
+        margin-right: 10%;
     }
 }
