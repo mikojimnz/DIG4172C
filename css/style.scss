@@ -1,7 +1,19 @@
 @import "_variables";
 @import "all.css";
 
+/*******************/
 /* Global Elements */
+/*******************/
+
+a {
+    color: $fontPrimaryColor;
+}
+
+a:hover {
+    color: $fontHoverColor;
+    text-decoration: none;
+}
+
 html {
     font-family: 'Montserrat', sans-serif;
     color: $fontPrimaryColor;
@@ -13,7 +25,7 @@ body {
 }
 
 footer {
-    background-color: $nasaDarkBlue;
+    background-color: #000000;
 }
 
 h1 {
@@ -22,10 +34,25 @@ h1 {
 }
 
 nav {
-    background-color: $nasaDarkBlue;
+    background-color: $nasaBlack;
+    border-bottom: 1px solid rgba($nasaWhite, 0.25);
 }
 
+/***********/
 /* Classes */
+/***********/
+
+/* Utility */
+.placeholder {
+    background-color: #efefef;
+    border: 4px gray solid;
+    padding: 15px;
+}
+
+/* Articles */
+.article-desc, .jumbotron-desc {
+    color: $fontMutedColor !important;
+}
 
 .article-list-ver {
     list-style: none;
@@ -36,6 +63,16 @@ nav {
     padding-bottom: 10px;
 }
 
+.article-img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.article-img-lg {
+    padding-bottom: 20px;
+}
+
 .article-item {
     color: $fontPrimaryColor;
 }
@@ -44,23 +81,79 @@ nav {
     text-decoration: none;
 }
 
+.article-more {
+    color: $nasaWhite;
+}
+
+.article-more:hover {
+    color: $nasaLightRed;
+}
+
+.article-section {
+    font-weight: 200;
+}
+
+.article-subtitle {
+    text-transform: uppercase;
+    color: $nasaLightRed;
+    font-weight: 400;
+}
+
+p.article-subtitle {
+    text-transform: uppercase;
+    color: $nasaLightRed;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.article-subtitle > i {
+    color: rgba($nasaWhite, 0.5);
+    font-style: italic;
+}
+
+.article-subtitle > i::before {
+    content: "•";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Cards */
+
 .card {
-    background-color: rgba($nasaWhite, 0.25);
+    background-color: rgba($nasaWhite, 0);
+}
+
+.card-body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .card-title, .card-text {
     color: $fontPrimaryColor;
 }
 
-.card-subtitle {
-    color: rgba($fontPrimaryColor, 0.75);
+.card-text {
+    font-size: 16px;
+    color: $fontMutedColor;
 }
 
-.placeholder {
-    background-color: #efefef;
-    border: 4px gray solid;
-    padding: 15px;
+/* Jumbostron */
+.jumbotron {
+    background-color: rgba($nasaDarkGray, 0.3);
 }
+
+.jumbotron-subtitle {
+    color: $nasaLighterBlue;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.jumbotron-title {
+    font-weight: 700;
+}
+
+/* Navs */
 
 .nav-item {
     font-size: 20px;
@@ -70,13 +163,63 @@ nav {
     font-weight: 800;
 }
 
+.nav-search {
+    border: 1px solid rgba($nasaWhite, 0.5);
+    border-left: none;
+    border-collapse: separate; 
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    background-color: $nasaBlack;
+    color: $fontMutedColor;
+
+    height: 30px;
+}
+
+.nav-search-btn {
+    border: 1px solid rgba($nasaWhite, 0.5);
+    border-right: none;
+    border-collapse: separate; 
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    background-color: $nasaBlack;
+    color: $fontMutedColor;
+
+    height: 30px;
+    margin-right: -5px;
+}
+
+.social-links {
+    list-style: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.social-links > li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+/***************/
+/* Breakpoints */
+/***************/
+
 /* Desktop Queries */
 @media screen and (min-width: $breakpoint-desktop) {
+    .collapse.navbar-collapse {
+        margin-right: 10%;
+    }
+
     .navbar-brand {
         margin-left: 10%;
     }
-    
-    .collapse.navbar-collapse {
-        margin-right: 10%;
+}
+
+/* Mobile Queries */
+@media screen and (max-width: $breakpoint-desktop) {
+    .center-on-mobile {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
     }
 }
