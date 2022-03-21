@@ -1,6 +1,10 @@
 @import "_variables";
 @import "all.css";
 
+// * {
+//     border: 1px solid red;
+// }
+
 /*******************/
 /* Global Elements */
 /*******************/
@@ -194,11 +198,13 @@ p.article-subtitle {
     list-style: none;
     display: inline-block;
     font-size: 22px;
+    align-items: center;
+    align-content: center;
 }
 
 .social-links > li {
     display: inline-block;
-    padding-right: 15px;
+    padding-right: 0.5rem;
 }
 
 /***************/
