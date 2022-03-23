@@ -25,7 +25,8 @@ html {
 
 body {
   background-color: #0d0d0d;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-top: 70px; }
 
 footer {
   background-color: #000000; }
