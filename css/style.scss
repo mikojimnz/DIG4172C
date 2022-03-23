@@ -1,6 +1,14 @@
 @import "_variables";
 @import "all.css";
 
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../fonts/Avenir-Light.ttf');
+}
+
 // * {
 //     border: 1px solid red;
 // }
@@ -32,6 +40,10 @@ footer {
     background-color: #000000;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-weight: 800;
     text-transform: uppercase;
@@ -40,6 +52,11 @@ h1 {
 nav {
     background-color: $nasaBlack;
     border-bottom: 1px solid rgba($nasaWhite, 0.25);
+}
+
+p, a {
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 /***********/
@@ -98,12 +115,14 @@ nav {
 }
 
 .article-subtitle {
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: $nasaLightRed;
     font-weight: 400;
 }
 
 p.article-subtitle {
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: $nasaLightRed;
     font-weight: 400;
@@ -112,6 +131,7 @@ p.article-subtitle {
 }
 
 .article-subtitle > i {
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
     color: rgba($nasaWhite, 0.5);
     font-style: italic;
 }
@@ -138,7 +158,6 @@ p.article-subtitle {
 }
 
 .card-text {
-    font-size: 16px;
     color: $fontMutedColor;
 }
 
@@ -148,6 +167,7 @@ p.article-subtitle {
 }
 
 .jumbotron-subtitle {
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
     color: $nasaLighterBlue;
     text-transform: uppercase;
     font-weight: 300;

@@ -3,6 +3,12 @@
 /* Media Queries */
 /* Colors */
 @import url(all.css);
+/*********/
+/* Fonts */
+/*********/
+@font-face {
+  font-family: 'Avenir-Light';
+  src: url("../fonts/Avenir-Light.ttf"); }
 /*******************/
 /* Global Elements */
 /*******************/
@@ -24,6 +30,9 @@ body {
 footer {
   background-color: #000000; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; }
+
 h1 {
   font-weight: 800;
   text-transform: uppercase; }
@@ -31,6 +40,10 @@ h1 {
 nav {
   background-color: #0e1114;
   border-bottom: 1px solid rgba(235, 235, 235, 0.25); }
+
+p, a {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+  font-size: 20px; }
 
 /***********/
 /* Classes */
@@ -77,11 +90,13 @@ nav {
   font-weight: 200; }
 
 .article-subtitle {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #ef0005;
   font-weight: 400; }
 
 p.article-subtitle {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #ef0005;
   font-weight: 400;
@@ -89,6 +104,7 @@ p.article-subtitle {
   margin-bottom: 5px; }
 
 .article-subtitle > i {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
   color: rgba(235, 235, 235, 0.5);
   font-style: italic; }
 
@@ -109,7 +125,6 @@ p.article-subtitle {
   color: #ffffff; }
 
 .card-text {
-  font-size: 16px;
   color: #CACACA; }
 
 /* Jumbostron */
@@ -117,6 +132,7 @@ p.article-subtitle {
   background-color: rgba(102, 102, 102, 0.3); }
 
 .jumbotron-subtitle {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
   color: #5292FF;
   text-transform: uppercase;
   font-weight: 300; }
