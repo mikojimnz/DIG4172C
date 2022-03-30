@@ -180,6 +180,14 @@ p.article-subtitle {
 
 /* Navs */
 
+.dropdown-menu {
+    background-color: $nasaDarkGray;
+}
+
+.dropdown-item {
+    color: $fontPrimaryColor;
+}
+
 .nav-item {
     font-size: 20px;
 }
@@ -241,6 +249,11 @@ p.article-subtitle {
     .navbar-brand {
         margin-left: 10%;
     }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; // remove the gap so it doesn't close
+     }
 }
 
 /* Mobile Queries */
