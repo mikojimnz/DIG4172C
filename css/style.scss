@@ -64,6 +64,13 @@ p, a {
 /* Classes */
 /***********/
 
+.container {
+    width: 100%;
+    max-width: fit-content;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
 /* Utility */
 .placeholder {
     background-color: #efefef;
