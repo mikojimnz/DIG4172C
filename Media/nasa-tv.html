@@ -82,23 +82,369 @@
         </div>
 
         <div class="row px-2 pb-5">
-            <div class="col-lg-9">
-                <img class="placeholder" width="100%" height="500px">
+            <div class="col-lg-8">
+                <div>
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/21X5lGlDOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="feedPublic"></iframe>
+                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/nA9UZF-SZoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="feedMedia" class="d-none"></iframe>
+                </div>
                 
                 <div class="row pt-3">
                     <div class="col-lg-6 text-center">
-                        <button class="btn btn-outline-primary w-50">Public</button>
+                        <button class="btn btn-outline-primary w-50" id="btnPublic">Public</button>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <button class="btn btn-outline-primary w-50">Media</button>
+                        <button class="btn btn-outline-primary w-50" id="btnMedia">Media</button>
                     </div>
                     <div class="col-12 pt-3">
-                        <p>description</p>
+                        <p>​When not showing live news coverage, NASA TV airs a variety of programming. Viewers may see views of the Earth from the International Space Station; replays of mission operations or news conferences; or episodes of produced programs. For the next live program, please see <a href="https://www.nasa.gov/multimedia/nasatv/schedule.html" target="_blank">Live Events on NASA TV.</a></p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 pt-5 pt-lg-0">
+            <div class="col-lg-4 pt-5 pt-lg-0">
                 <h2>Schedule</h2>
+                <div class="accordion" id="accordionExample">
+
+                    <div class="card">
+                      <div class="card-header p-0" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Sunday
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>Countdown to Zero</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>NASA X</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>StationLife</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Legacy of Endeavour</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>Mission Control</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>Mission Control</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>NASA Explorers</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>NASA X</td>
+                                </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header p-0" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            Monday
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>Replay - ISS Expedition 66 In-Flight Educational Event with the Orville Wright STEAM Middle School in Los Angeles and NASA Flight Engineer Tom Marshburn</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>Replay - NASA Science Live: We Just Opened a 50-Year-Old Moon Sample</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>Replay - NASA Science Live: We Just Opened a 50-Year-Old Moon Sample</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Within this Decade: America in Space (1969)</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>NASA X</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>Airborne Tropical Tropopause Experiment</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>"Best of the Best" - New Views and Commentary of Shuttle Launches</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>"Best of the Best" - New Views and Commentary of Shuttle Launches</td>
+                                </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header p-0" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            Tuesday
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>How We Are Going to the Moon</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>NASA Deputy Administrator Pam Melroy’s plenary remarks at the 37th Space Symposium</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>NASA Deputy Administrator Pam Melroy’s plenary remarks at the 37th Space Symposium</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Artemis and the Industry: Building the Space Economy panel discussion featuring NASA leaders at the 37th Space Symposium</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>Replay - NASA Science Live: We Just Opened a 50-Year-Old Moon Sample</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>Replay - NASA Science Live: We Just Opened a 50-Year-Old Moon Sample</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>The Time of Apollo</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>Space Shuttle Era</td>
+                                </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                              <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                              Wednesday
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>
+                                        Coverage of the SpaceX/Axiom-1 Launch on Crew Dragon Endeavour to the ISS (Launch scheduled at 12:05 p.m. EDT)</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>
+                                        Coverage of the SpaceX/Axiom-1 Launch on Crew Dragon Endeavour to the ISS (Launch scheduled at 12:05 p.m. EDT)</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>
+                                        Coverage of the SpaceX/Axiom-1 Launch on Crew Dragon Endeavour to the ISS (Launch scheduled at 12:05 p.m. EDT)</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>
+                                        Coverage of the SpaceX/Axiom-1 Launch on Crew Dragon Endeavour to the ISS (Launch scheduled at 12:05 p.m. EDT)</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>
+                                        Coverage of the SpaceX/Axiom-1 Launch on Crew Dragon Endeavour to the ISS (Launch scheduled at 12:05 p.m. EDT)</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>NASA Explorers</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>NASA Explorers</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>ISS Benefits for Humanity</td>
+                                </tr>
+                          </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                              <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                              Thursday
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>Countdown to Zero</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>Preparing America for Deep Space</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>Replay - ISS Expedition 66 In-Flight Educational Event with the Orville Wright STEAM Middle School in Los Angeles and NASA Flight Engineer Tom Marshburn</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Tech on Deck</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>NASA Operation Icebridge</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>NASA X - Game Changing Technologies</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>ISS Benefits for Humanity</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>Within this Decade: America in Space (1969)</td>
+                                </tr>
+                          </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                              <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                              Friday
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>Ask an Astrobiologist</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>Ask an Astrobiologist</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>Replay - ISS Expedition 66 In-Flight Educational Event with the Orville Wright STEAM Middle School in Los Angeles and NASA Flight Engineer Tom Marshburn</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Operation Earth: Wildfires</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>Way Station to Space: The History of Stennis Space Center</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>Advancing Technology and Science Through Flight</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>Sally Ride: A Ride to Remember</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>Sally Ride: A Ride to Remember</td>
+                                </tr>
+                          </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header p-0" id="headingThree">
+                          <h2 class="mb-0">
+                              <button class="btn btn-outline-light text-left collapsed w-100" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                              Saturday
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <table class="table table-dark">
+                                <tr>
+                                    <td>12p.m.</td>
+                                    <td>NASA Explorers</td>
+                                </tr>
+                                <tr>
+                                    <td>12:30p.m.</td>
+                                    <td>StationLife</td>
+                                </tr>
+                                <tr>
+                                    <td>1p.m.</td>
+                                    <td>ISS Benefits for Humanity</td>
+                                </tr>
+                                <tr>
+                                    <td>1:30p.m.</td>
+                                    <td>Wildfires</td>
+                                </tr>
+                                <tr>
+                                    <td>2p.m.</td>
+                                    <td>SpaceCast Weekly</td>
+                                </tr>
+                                <tr>
+                                    <td>2:30p.m.</td>
+                                    <td>NASA X</td>
+                                </tr>
+                                <tr>
+                                    <td>3p.m.</td>
+                                    <td>The Time of Apollo</td>
+                                </tr>
+                                <tr>
+                                    <td>3:30p.m.</td>
+                                    <td>Preparing America for Deep Space</td>
+                                </tr>
+                          </table>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
             </div>
         </div>
     </div>
@@ -146,4 +492,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $('#btnPublic').on('click', function(){
+            $('#feedPublic').removeClass('d-none');
+            $('#feedMedia').addClass('d-none');
+        });
+        $('#btnMedia').on('click', function(){
+            $('#feedPublic').addClass('d-none');
+            $('#feedMedia').removeClass('d-none');
+        });
+    </script>
 </html>
