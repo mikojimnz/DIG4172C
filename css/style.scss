@@ -16,9 +16,10 @@
 /*******************/
 /* Global Elements */
 /*******************/
-
 a {
     color: $fontPrimaryColor;
+    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 a:hover {
@@ -55,9 +56,10 @@ nav {
     border-bottom: 1px solid rgba($nasaWhite, 0.25);
 }
 
-p, a {
+p {
     font-family: 'Avenir-Light', 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
+    color: rgba($fontPrimaryColor, 0.75);
 }
 
 /***********/
@@ -72,6 +74,22 @@ p, a {
 }
 
 /* Utility */
+.captioned-img {
+    position: relative;
+}
+
+.img-caption {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    background-color: rgba($nasaBlack, 0.8);
+
+    font-size: 1rem;
+}
+
 .placeholder {
     background-color: #efefef;
     border: 4px gray solid;
