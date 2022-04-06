@@ -59,6 +59,9 @@ p {
   padding-right: 11%; }
 
 /* Utility */
+.btn-rounded {
+  border-radius: 10px; }
+
 .captioned-img {
   position: relative; }
 
