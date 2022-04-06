@@ -17,9 +17,16 @@
 /* Global Elements */
 /*******************/
 a {
-    color: $fontPrimaryColor;
+    color: $nasaLighterBlue;
     font-family: 'Avenir-Light', 'Montserrat', sans-serif;
-    font-size: 20px;
+}
+
+a > i.fab {
+    color: $fontPrimaryColor;
+}
+
+a > i.fab:hover{
+    color: $fontHoverColor;
 }
 
 a:hover {
@@ -62,6 +69,10 @@ p {
     color: rgba($fontPrimaryColor, 0.75);
 }
 
+strong {
+    color: $fontPrimaryColor;
+}
+
 /***********/
 /* Classes */
 /***********/
@@ -92,7 +103,8 @@ p {
     width: 100%;
     background-color: rgba($nasaBlack, 0.8);
 
-    font-size: 1rem;
+    font-size: 1.25rem;
+    color: $fontPrimaryColor;
 }
 
 .placeholder {
@@ -173,6 +185,10 @@ p.article-subtitle {
     padding-right: 10px;
 }
 
+.article-title {
+    color: $fontPrimaryColor;
+}
+
 /* Cards */
 
 .card {
@@ -206,6 +222,7 @@ p.article-subtitle {
 
 .jumbotron-title {
     font-weight: 700;
+    color: $fontPrimaryColor;
 }
 
 /* Navs */

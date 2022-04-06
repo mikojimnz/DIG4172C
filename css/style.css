@@ -13,9 +13,14 @@
 /* Global Elements */
 /*******************/
 a {
-  color: #ffffff;
-  font-family: 'Avenir-Light', 'Montserrat', sans-serif;
-  font-size: 20px; }
+  color: #5292FF;
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif; }
+
+a > i.fab {
+  color: #ffffff; }
+
+a > i.fab:hover {
+  color: #999999; }
 
 a:hover {
   color: #999999;
@@ -49,6 +54,9 @@ p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.75); }
 
+strong {
+  color: #ffffff; }
+
 /***********/
 /* Classes */
 /***********/
@@ -72,7 +80,8 @@ p {
   bottom: 0;
   width: 100%;
   background-color: rgba(14, 17, 20, 0.8);
-  font-size: 1rem; }
+  font-size: 1.25rem;
+  color: #ffffff; }
 
 .placeholder {
   background-color: #efefef;
@@ -138,6 +147,9 @@ p.article-subtitle {
   padding-left: 10px;
   padding-right: 10px; }
 
+.article-title {
+  color: #ffffff; }
+
 /* Cards */
 .card {
   background-color: rgba(235, 235, 235, 0); }
@@ -163,7 +175,8 @@ p.article-subtitle {
   font-weight: 300; }
 
 .jumbotron-title {
-  font-weight: 700; }
+  font-weight: 700;
+  color: #ffffff; }
 
 /* Navs */
 .dropdown-menu {
