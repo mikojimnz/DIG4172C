@@ -279,6 +279,19 @@ p.article-subtitle {
         display: block;
         margin-top: 0; // remove the gap so it doesn't close
      }
+
+     /* Uniform Columns */
+    .uni-header {
+        min-height: 70px;
+    }
+
+    .uni-content {
+        min-height: 200px;
+    }
+
+    .uni-footer {
+        min-height: 100px;
+    }
 }
 
 /* Mobile Queries */

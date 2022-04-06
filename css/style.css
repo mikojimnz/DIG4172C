@@ -222,7 +222,17 @@ p.article-subtitle {
 
   .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  /* Uniform Columns */
+  .uni-header {
+    min-height: 70px; }
+
+  .uni-content {
+    min-height: 200px; }
+
+  .uni-footer {
+    min-height: 100px; } }
 /* Mobile Queries */
 @media screen and (max-width: 992px) {
   .center-on-mobile {
