@@ -51,7 +51,7 @@ nav {
 
 p {
   font-family: 'Avenir-Light', 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 1.15rem;
   color: rgba(255, 255, 255, 0.75); }
 
 strong {
@@ -67,6 +67,15 @@ strong {
   padding-right: 11%; }
 
 /* Utility */
+.btn {
+  border: none; }
+
+.btn-primary {
+  background-color: #0645b1; }
+
+.btn-primary:hover {
+  background-color: #5292FF; }
+
 .btn-rounded {
   border-radius: 10px; }
 
@@ -199,7 +208,7 @@ p.article-subtitle {
 
 /* Navs */
 .dropdown-menu {
-  background-color: #666666; }
+  background-color: #5292FF; }
 
 .dropdown-item {
   color: #ffffff; }

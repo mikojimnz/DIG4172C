@@ -65,7 +65,7 @@ nav {
 
 p {
     font-family: 'Avenir-Light', 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 1.15rem;
     color: rgba($fontPrimaryColor, 0.75);
 }
 
@@ -85,6 +85,18 @@ strong {
 }
 
 /* Utility */
+
+.btn {
+    border: none;
+}
+
+.btn-primary {
+    background-color: $nasaLightBlue;
+}
+
+.btn-primary:hover {
+    background-color: $nasaLighterBlue;
+}
 
 .btn-rounded {
     border-radius: 10px;
@@ -253,7 +265,7 @@ p.article-subtitle {
 /* Navs */
 
 .dropdown-menu {
-    background-color: $nasaDarkGray;
+    background-color: $nasaLighterBlue;
 }
 
 .dropdown-item {
