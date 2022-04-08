@@ -175,7 +175,7 @@ p.article-subtitle {
 .img-banner-container > img {
   width: 100vw;
   height: 250px;
-  margin-left: calc(50% - 50vw);
+  margin-left: calc(49% - 50vw);
   object-fit: cover;
   object-position: center top; }
 
