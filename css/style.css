@@ -73,6 +73,10 @@ strong {
 .captioned-img {
   position: relative; }
 
+.captioned-img > p {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
 .img-caption {
   text-align: center;
   display: block;
