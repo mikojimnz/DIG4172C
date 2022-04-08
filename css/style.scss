@@ -90,28 +90,6 @@ strong {
     border-radius: 10px;
 }
 
-.captioned-img {
-    position: relative;
-}
-
-.captioned-img > p {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.img-caption {
-    text-align: center;
-    display: block;
-    position: absolute;
-    bottom: 0;
-
-    width: 100%;
-    background-color: rgba($nasaBlack, 0.8);
-
-    font-size: 1.25rem;
-    color: $fontPrimaryColor;
-}
-
 .placeholder {
     background-color: #efefef;
     border: 4px gray solid;
@@ -211,6 +189,48 @@ p.article-subtitle {
 
 .card-text {
     color: $fontMutedColor;
+}
+
+/* Images */
+
+.captioned-img {
+    position: relative;
+}
+
+.captioned-img > p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.img-caption {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    background-color: rgba($nasaBlack, 0.8);
+
+    font-size: 1.25rem;
+    color: $fontPrimaryColor;
+}
+
+.img-banner-container {
+    position: relative;
+}
+
+.img-banner-container > img {
+    width: 100vw;
+    height: 250px;
+    margin-left: calc(50% - 50vw);
+
+    object-fit: cover;
+    object-position: center top;
+}
+
+.img-banner-title {
+    position: absolute;
+    bottom: 10%;
 }
 
 /* Jumbostron */
