@@ -116,14 +116,8 @@ strong {
   color: #999999;
   text-decoration: none; }
 
-.article-more {
-  color: #ebebeb; }
-
 .article-more:hover {
   color: #ef0005; }
-
-.article-section {
-  font-weight: 200; }
 
 .article-subtitle {
   font-family: 'Avenir-Light', 'Montserrat', sans-serif;
@@ -155,7 +149,8 @@ p.article-subtitle {
 
 /* Cards */
 .card {
-  background-color: rgba(235, 235, 235, 0); }
+  background-color: rgba(235, 235, 235, 0);
+  border: none !important; }
 
 .card-body {
   padding-left: 0;

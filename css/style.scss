@@ -149,15 +149,11 @@ strong {
 }
 
 .article-more {
-    color: $nasaWhite;
+    $color: $nasaLighterBlue !important;
 }
 
 .article-more:hover {
     color: $nasaLightRed;
-}
-
-.article-section {
-    font-weight: 200;
 }
 
 .article-subtitle {
@@ -197,6 +193,7 @@ p.article-subtitle {
 
 .card {
     background-color: rgba($nasaWhite, 0);
+    border: none !important;
 }
 
 .card-body {
