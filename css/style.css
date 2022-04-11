@@ -38,9 +38,9 @@ body {
 footer {
   background-color: #000000; }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600; }
+  font-weight: 800; }
 
 h1 {
   font-size: 50px; }
@@ -48,11 +48,11 @@ h1 {
 h2 {
   font-size: 30px; }
 
-h3, h4, h5, h6, p {
-  font-family: 'Avenir-Light', 'Montserrat', sans-serif; }
-
 h3 {
   font-size: 24px; }
+
+h4, h5, h6, p {
+  font-family: 'Avenir-Light', 'Montserrat', sans-serif; }
 
 nav {
   background-color: #0e1114;
@@ -151,7 +151,8 @@ p.article-subtitle {
   font-style: normal; }
 
 .article-title {
-  color: #ffffff; }
+  color: #ffffff;
+  font-weight: 800; }
 
 /* Cards */
 .card {
@@ -164,6 +165,10 @@ p.article-subtitle {
 
 .card-title, .card-text {
   color: #ffffff; }
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800; }
 
 .card-text {
   color: #CACACA;
@@ -219,7 +224,7 @@ p.article-subtitle {
   font-weight: 300; }
 
 .jumbotron-title {
-  font-weight: 700;
+  font-weight: 800;
   color: #ffffff; }
 
 /* Navs */
