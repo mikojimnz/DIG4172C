@@ -136,6 +136,14 @@ strong {
     display: block;
 }
 
+.article-img-wide {
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
 .article-img-lg {
     padding-bottom: 20px;
 }
