@@ -86,12 +86,9 @@ strong {
 
 /* Utility */
 
-.btn {
-    border: none;
-}
-
 .btn-primary {
     background-color: $nasaLightBlue;
+    border: 1px solid $nasaLightBlue;
 }
 
 .btn-primary:hover {
@@ -248,6 +245,10 @@ p.article-subtitle {
 /* Jumbostron */
 .jumbotron {
     background-color: rgba($nasaDarkGray, 0.3);
+}
+
+.jumbotron-hr {
+    border: 1px solid rgba($nasaWhite, 0.3);
 }
 
 .jumbotron-subtitle {

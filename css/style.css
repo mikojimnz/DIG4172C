@@ -67,11 +67,9 @@ strong {
   padding-right: 11%; }
 
 /* Utility */
-.btn {
-  border: none; }
-
 .btn-primary {
-  background-color: #0645b1; }
+  background-color: #0645b1;
+  border: 1px solid #0645b1; }
 
 .btn-primary:hover {
   background-color: #5292FF; }
@@ -195,6 +193,9 @@ p.article-subtitle {
 /* Jumbostron */
 .jumbotron {
   background-color: rgba(102, 102, 102, 0.3); }
+
+.jumbotron-hr {
+  border: 1px solid rgba(235, 235, 235, 0.3); }
 
 .jumbotron-subtitle {
   font-family: 'Avenir-Light', 'Montserrat', sans-serif;
