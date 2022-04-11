@@ -160,7 +160,12 @@ p.article-subtitle {
   color: #ffffff; }
 
 .card-text {
-  color: #CACACA; }
+  color: #CACACA;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; }
 
 /* Images */
 .captioned-img {
