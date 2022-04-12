@@ -143,7 +143,6 @@ strong {
     object-fit: cover;
 }
 
-
 .article-img-lg {
     padding-bottom: 20px;
 }
@@ -268,6 +267,18 @@ p.article-subtitle {
 .img-banner-title {
     position: absolute;
     bottom: 10%;
+}
+
+.img-video {
+    height: 200px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.img-square {
+    display: block;
+    object-fit: cover;
 }
 
 /* Jumbostron */

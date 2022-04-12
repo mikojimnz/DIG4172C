@@ -210,6 +210,16 @@ p.article-subtitle {
   position: absolute;
   bottom: 10%; }
 
+.img-video {
+  height: 200px;
+  width: 100%;
+  display: block;
+  object-fit: cover; }
+
+.img-square {
+  display: block;
+  object-fit: cover; }
+
 /* Jumbostron */
 .jumbotron {
   background-color: rgba(102, 102, 102, 0.3); }
