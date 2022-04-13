@@ -9,10 +9,6 @@
     src: url('../fonts/Avenir-Light.ttf');
 }
 
-// * {
-//     border: 1px solid red;
-// }
-
 /*******************/
 /* Global Elements */
 /*******************/
@@ -26,11 +22,11 @@ a > i.fab {
 }
 
 a > i.fab:hover{
-    color: $fontHoverColor;
+    color: $fontAColor;
 }
 
 a:hover {
-    color: $fontHoverColor;
+    color: $fontAColor;
     text-decoration: none;
 }
 

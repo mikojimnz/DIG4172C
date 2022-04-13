@@ -17,13 +17,13 @@ a {
   font-family: 'Open Sans', sans-serif; }
 
 a > i.fab {
-  color: #5292FF; }
+  color: #ffffff; }
 
 a > i.fab:hover {
-  color: #999999; }
+  color: #5292FF; }
 
 a:hover {
-  color: #999999;
+  color: #5292FF;
   text-decoration: none; }
 
 html {
@@ -33,7 +33,7 @@ html {
 
 body {
   background-color: #131313;
-  color: #5292FF;
+  color: #ffffff;
   padding-top: 70px; }
 
 footer {
@@ -64,10 +64,10 @@ nav {
 
 p {
   font-size: 20px;
-  color: rgba(82, 146, 255, 0.75); }
+  color: rgba(255, 255, 255, 0.75); }
 
 strong {
-  color: #5292FF; }
+  color: #ffffff; }
 
 /***********/
 /* Classes */
@@ -125,7 +125,7 @@ strong {
   padding-bottom: 20px; }
 
 .article-item {
-  color: #5292FF; }
+  color: #ffffff; }
 
 .article-item:hover {
   color: #999999;
@@ -162,7 +162,7 @@ p.article-subtitle {
 
 .article-title {
   font-family: 'Montserrat', sans-serif;
-  color: #5292FF;
+  color: #ffffff;
   font-weight: bold;
   font-size: 16px; }
 
@@ -188,7 +188,7 @@ p.article-subtitle {
   padding-right: 0; }
 
 .card-title, .card-text {
-  color: #5292FF; }
+  color: #ffffff; }
 
 .card-title {
   font-family: 'Montserrat', sans-serif;
@@ -220,7 +220,7 @@ p.article-subtitle {
   width: 100%;
   background-color: rgba(19, 19, 19, 0.8);
   font-size: 1.25rem;
-  color: #5292FF; }
+  color: #ffffff; }
 
 .img-banner-container {
   position: relative; }
@@ -277,7 +277,7 @@ p.article-subtitle {
   background-color: #5292FF; }
 
 .dropdown-item {
-  color: #5292FF; }
+  color: #ffffff; }
 
 .nav-item {
   font-size: 18x; }
