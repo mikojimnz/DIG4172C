@@ -222,6 +222,11 @@ p.article-subtitle {
   font-size: 1.25rem;
   color: #ffffff; }
 
+.img-circle {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px; }
+
 .img-banner-container {
   position: relative; }
 
