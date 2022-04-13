@@ -18,7 +18,7 @@
 /*******************/
 a {
     color: $nasaLighterBlue;
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a > i.fab {
@@ -35,8 +35,9 @@ a:hover {
 }
 
 html {
-    font-family: 'Montserrat', sans-serif;
-    color: $fontPrimaryColor;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    overflow-x: hidden;
 }
 
 body {
@@ -49,21 +50,23 @@ footer {
     background-color: #000000;
 }
 
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-}
-
 h1 {
-    font-size: 50px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size:32px;
 }
-
+  
 h2 {
-    font-size: 30px;
-}
-
-h3 {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 24px;
+    color: #ffffff;
+}
+  
+h3 {
+    font-size: 24px; 
 }
 
 h4, h5, h6, p {
@@ -89,7 +92,6 @@ strong {
 /***********/
 
 .container {
-    width: 100%;
     max-width: 100%;
     padding-left: 11%;
     padding-right: 11%;
@@ -118,7 +120,13 @@ strong {
 
 /* Articles */
 .article-desc, .jumbotron-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     color: $fontMutedColor !important;
+}
+
+.article-recent-desc{
+    font-size: 16px;
 }
 
 .article-list-ver {
@@ -137,10 +145,11 @@ strong {
 }
 
 .article-img-wide {
-    height: 300px;
+    height: 275px;
     width: 100%;
     display: block;
     object-fit: cover;
+    object-position: center;
 }
 
 .article-img-lg {
@@ -164,25 +173,26 @@ strong {
 }
 
 .article-subtitle {
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: $nasaLightRed;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 p.article-subtitle {
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: $nasaLightRed;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     margin-bottom: 5px;
 }
 
 .article-subtitle > i {
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgba($nasaWhite, 0.5);
     font-style: italic;
+    font-weight: 300;
 }
 
 .article-subtitle > i::before {
@@ -193,8 +203,24 @@ p.article-subtitle {
 }
 
 .article-title {
+    font-family: 'Montserrat', sans-serif;
     color: $fontPrimaryColor;
-    font-weight: 800;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.article-recent-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight:900;
+    font-size: 36px;
+}
+ 
+.article-latest-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight:700;
+    font-size: 18px;
 }
 
 /* Cards */
@@ -215,7 +241,8 @@ p.article-subtitle {
 
 .card-title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .card-text {
@@ -225,6 +252,7 @@ p.article-subtitle {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size:16px;
 }
 
 /* Images */
@@ -281,25 +309,35 @@ p.article-subtitle {
     object-fit: cover;
 }
 
-/* Jumbostron */
+/* Jumbotron */
 .jumbotron {
-    background-color: rgba($nasaDarkGray, 0.3);
+    background-color: #282828;
 }
 
 .jumbotron-hr {
-    border: 1px solid rgba($nasaWhite, 0.3);
+    border: 1px solid #4D4D4D;
 }
 
 .jumbotron-subtitle {
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: $nasaLighterBlue;
-    text-transform: uppercase;
     font-weight: 300;
+    font-size: 16px;
 }
 
 .jumbotron-title {
-    font-weight: 800;
-    color: $fontPrimaryColor;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size:32px;
+}
+ 
+.jumbotron-date {
+    font-family: 'Open Sans', sans-serif;
+    color: #EAEAEA;
+    font-size:20px;
+    font-style: italic;
 }
 
 /* Navs */
@@ -313,7 +351,7 @@ p.article-subtitle {
 }
 
 .nav-item {
-    font-size: 20px;
+    font-size: 18x;
 }
 
 .navbar-dark .nav-item.active .nav-link {

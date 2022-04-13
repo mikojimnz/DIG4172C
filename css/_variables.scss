@@ -1,5 +1,5 @@
 /* Color Constants */
-$nasaBlack: #0e1114;
+$nasaBlack: #131313;
 $nasaDarkGray: #666666;
 $nasaLightGray: #999999;
 $nasaWhite: #ebebeb;
@@ -9,14 +9,14 @@ $nasaLightBlue: #0645b1;
 $nasaLighterBlue: #5292FF;
 $nasaDarkRed: #700000;
 $nasaRed: #8f0000;
-$nasaLightRed: #ef0005;
+$nasaLightRed: #EC1E1E;
 
 /* Media Queries */
 $breakpoint-mobile: 576px;
 $breakpoint-desktop: 992px;
 
 /* Colors */
-$bodyColor: #0d0d0d;
-$fontPrimaryColor: #ffffff;
-$fontMutedColor: #CACACA;
+$bodyColor: $nasaBlack;
+$fontPrimaryColor: #5292FF;
+$fontMutedColor: #C1C1C1;
 $fontHoverColor: $nasaLightGray;
