@@ -16,14 +16,18 @@ a {
   color: #5292FF;
   font-family: 'Open Sans', sans-serif; }
 
+a:hover, .jumbotron-subtitle.float-lg-right:hover {
+  color: #999999;
+  text-decoration: none; }
+
 a > i.fab {
   color: #ffffff; }
 
 a > i.fab:hover {
   color: #5292FF; }
 
-a:hover {
-  color: #5292FF;
+.article-title:hover, .article-recent-title:hover, .article-latest-title:hover, .card-title:hover, .hover:hover {
+  color: #5292FF !important;
   text-decoration: none; }
 
 html {

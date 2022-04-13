@@ -17,6 +17,11 @@ a {
     font-family: 'Open Sans', sans-serif;
 }
 
+a:hover, .jumbotron-subtitle.float-lg-right:hover {
+    color: $fontHoverColor;
+    text-decoration: none;
+}
+
 a > i.fab {
     color: $fontPrimaryColor;
 }
@@ -25,8 +30,8 @@ a > i.fab:hover{
     color: $fontAColor;
 }
 
-a:hover {
-    color: $fontAColor;
+.article-title:hover, .article-recent-title:hover, .article-latest-title:hover, .card-title:hover, .hover:hover {
+    color: $fontAColor!important;
     text-decoration: none;
 }
 
