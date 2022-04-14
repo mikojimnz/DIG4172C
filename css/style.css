@@ -177,6 +177,10 @@ p.article-subtitle {
   font-weight: 700;
   font-size: 18px; }
 
+.caption {
+  font-size: 16px;
+  color: #ffffff; }
+
 /* Cards */
 .card {
   background-color: rgba(235, 235, 235, 0);
