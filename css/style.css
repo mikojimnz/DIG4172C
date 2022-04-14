@@ -76,11 +76,6 @@ strong {
 /***********/
 /* Classes */
 /***********/
-.container {
-  max-width: 100%;
-  padding-left: 11%;
-  padding-right: 11%; }
-
 /* Utility */
 .btn-primary {
   background-color: #0645b1;
@@ -331,17 +326,28 @@ p.article-subtitle {
 /***************/
 /* Breakpoints */
 /***************/
+@media screen and (max-width: 1440px) {
+  .mx-xl-3 {
+    margin-left: 2% !important;
+    margin-right: 2% !important; } }
 /* Desktop Queries */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   .collapse.navbar-collapse {
-    margin-right: 10%; }
+    margin-right: 17%; }
 
-  .navbar-brand {
-    margin-left: 10%; }
+  .container {
+    max-width: 66%; }
 
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; }
+
+  .jumbotron-container {
+    margin-right: 17%;
+    margin-left: 17%; }
+
+  .navbar-brand {
+    margin-left: 17%; }
 
   /* Uniform Columns */
   .uni-header {
@@ -353,11 +359,20 @@ p.article-subtitle {
   .uni-footer {
     min-height: 100px; } }
 /* Mobile Queries */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .collapse.navbar-collapse {
+    margin-right: 1%; }
+
   .center-on-mobile {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: block; }
+
+  .jumbotron-container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     display: block; } }
 
 /*# sourceMappingURL=style.css.map */
