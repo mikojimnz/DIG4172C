@@ -4,6 +4,7 @@
 /*******************/
 /* Global Elements */
 /*******************/
+
 a {
     color: $nasaLighterBlue;
     font-family: 'Open Sans', sans-serif;
@@ -24,7 +25,7 @@ a > i.fab:hover{
 
 .article-title:hover, .article-recent-title:hover, .article-latest-title:hover, .card-title:hover, .hover:hover {
     color: $fontAColor!important;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 html {
@@ -59,24 +60,40 @@ h2 {
 }
   
 h3 {
-    font-size: 24px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color:#E6E6E6;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
-h4, h5, h6, p {
+h6 {
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size:20px;
+    color:#BABABA;
 }
 
 nav {
     background-color: $nasaBlack;
-    border-bottom: 1px solid rgba($nasaWhite, 0.25);
+    border-bottom: 1px solid #C4C4C4;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 16px;
     color: rgba($fontPrimaryColor, 0.75);
 }
+
+p a {
+    font-weight:700;
+    text-decoration: underline;
+  }
 
 strong {
     color: $fontPrimaryColor;
@@ -118,6 +135,7 @@ strong {
 }
 
 /* Articles */
+
 .article-desc, .jumbotron-desc {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -151,10 +169,6 @@ strong {
     object-position: center;
 }
 
-.article-img-lg {
-    padding-bottom: 20px;
-}
-
 .article-item {
     color: $fontPrimaryColor;
 }
@@ -183,7 +197,7 @@ p.article-subtitle {
     text-transform: uppercase;
     color: $nasaLightRed;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12x;
     margin-bottom: 5px;
 }
 
@@ -192,6 +206,7 @@ p.article-subtitle {
     color: rgba($nasaWhite, 0.5);
     font-style: italic;
     font-weight: 300;
+    text-transform: capitalize;
 }
 
 .article-subtitle > i::before {
@@ -211,20 +226,36 @@ p.article-subtitle {
 .article-recent-title {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-weight:900;
+    font-weight: 700;
     font-size: 36px;
 }
  
 .article-latest-title {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    font-weight:700;
-    font-size: 18px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 .caption {
-    font-size: 16px;
+    font-size: 13px;
     color: $fontPrimaryColor;
+}
+
+/* Exclusively for Article.html Page */
+
+.article-head {
+    text-transform: capitalize;
+    font-size:36pt;
+    font-weight:800;
+}
+ 
+.article-category {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: $nasaLightRed;
+    font-weight: bold;
+    font-size:24px; 
 }
 
 /* Cards */
@@ -245,8 +276,8 @@ p.article-subtitle {
 
 .card-title {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .card-text {
@@ -256,7 +287,7 @@ p.article-subtitle {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size:16px;
+    font-size: 15px;
 }
 
 /* Images */
@@ -270,6 +301,10 @@ p.article-subtitle {
     padding-bottom: 0;
 }
 
+.img-fluid, .article-img, .card img { /* Image Borders for Better Accessibiity*/
+    border: 1px solid #2F2F2F;
+  }
+
 .img-caption {
     text-align: center;
     display: block;
@@ -279,7 +314,8 @@ p.article-subtitle {
     width: 100%;
     background-color: rgba($nasaBlack, 0.8);
 
-    font-size: 1.25rem;
+    font-size: 24px;
+    font-weight:700;
     color: $fontPrimaryColor;
 }
 
@@ -311,7 +347,7 @@ p.article-subtitle {
 }
 
 .img-video {
-    height: 200px;
+    height: 165px;
     width: 100%;
     display: block;
     object-fit: cover;
@@ -322,19 +358,26 @@ p.article-subtitle {
     object-fit: cover;
 }
 
+.jumbotron img { /* Image Borders for Better Accessibiity */
+    border: 1px solid #696969;
+  }
+
 /* Jumbotron */
+
 .jumbotron {
     background-color: #282828;
 }
 
 .jumbotron-hr {
-    border: 1px solid #4D4D4D;
+    height: 1px;
+    border-width: 0;
+    background-color:#4D4D4D;
 }
 
 .jumbotron-subtitle {
     font-family: 'Open Sans', sans-serif;
     color: $nasaLighterBlue;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 16px;
 }
 
@@ -349,7 +392,7 @@ p.article-subtitle {
 .jumbotron-date {
     font-family: 'Open Sans', sans-serif;
     color: #EAEAEA;
-    font-size:20px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -422,8 +465,6 @@ p.article-subtitle {
     }
 }
 
-
-
 /* Desktop Queries */
 @media screen and (min-width: $breakpoint-desktop) {
     .collapse.navbar-collapse {
@@ -440,8 +481,8 @@ p.article-subtitle {
     }
 
     .jumbotron-container {
-        margin-right: 17%;
-        margin-left: 17%;
+        margin-right: 18%;
+        margin-left: 18%;
     }
 
     .navbar-brand {
@@ -464,10 +505,6 @@ p.article-subtitle {
 
 /* Mobile Queries */
 @media screen and (max-width: $breakpoint-desktop) {
-    .collapse.navbar-collapse {
-        margin-right: 1%;
-    }
-
     .center-on-mobile {
         margin-left: auto;
         margin-right: auto;
