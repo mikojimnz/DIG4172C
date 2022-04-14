@@ -227,7 +227,12 @@ p.article-subtitle {
 .card-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 20px; }
+  font-size: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;}
 
 .card-text {
   color: #C1C1C1;
