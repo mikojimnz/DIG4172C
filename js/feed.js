@@ -8,7 +8,7 @@ $( document ).ready(function() {
     page.latest.forEach(item => {
       feed.push(
         `<li><a href="${item.link}" class="row article-item my-2">` +
-        `<div class="col-lg-3"><img class="article-img" src="${item.img}"></div><div class="col-lg-9">` +
+        `<div class="col-lg-4"><img class="article-img" src="${item.img}"></div><div class="col-lg-8">` +
         `<p class="article-subtitle">${item.subtitle}<i>${item.date}</i></p>` +
         `<h5 class="article-latest-title">${item.title}</h5></div></a></li>`
       );
@@ -22,7 +22,7 @@ $( document ).ready(function() {
     var feed = [];
     page.related.forEach(item => {
       feed.push(
-        '<div class="col-lg-4">' +
+        '<div class="col-lg-4 my-4">' +
         `<a href="${item.link}" class="card">` +
         `<img class="article-img-wide" src="${item.img}"><div class="card-body">` +
         `<p class="article-subtitle">${item.subtitle}<i>${item.date}</i></p>` +
@@ -50,7 +50,7 @@ function getArticle() {
 
   if (page.hasRelated){
     var item = page.related[Math.floor(Math.random() * page.related.length)]; //pick random article
-    return '<div class="col-lg-4">' +
+    return '<div class="col-lg-4 my-4">' +
     `<a href="${item.link}" class="card">` +
     `<img class="article-img-wide" src="${item.img}"><div class="card-body">` +
     `<p class="article-subtitle">${item.subtitle}<i>${item.date}</i></p>` +
