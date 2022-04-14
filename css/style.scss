@@ -1,14 +1,6 @@
 @import "_variables";
 @import "all.css";
 
-/*********/
-/* Fonts */
-/*********/
-@font-face {
-    font-family: 'Avenir-Light';
-    src: url('../fonts/Avenir-Light.ttf');
-}
-
 /*******************/
 /* Global Elements */
 /*******************/
@@ -71,7 +63,7 @@ h3 {
 }
 
 h4, h5, h6, p {
-    font-family: 'Avenir-Light', 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -80,7 +72,9 @@ nav {
 }
 
 p {
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 16px;
     color: rgba($fontPrimaryColor, 0.75);
 }
 
@@ -95,8 +89,11 @@ strong {
 /* Utility */
 
 .btn-primary {
-    background-color: $nasaLightBlue;
+    background-color: $nasaBlue;
     border: 1px solid $nasaLightBlue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
 }
 
 .btn-primary:hover {
@@ -106,6 +103,13 @@ strong {
 .btn-rounded {
     border-radius: 10px;
 }
+
+.lead p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 36px;
+    font-size: 20px;
+    color: #E6E6E6;
+  }
 
 .placeholder {
     background-color: #efefef;
@@ -242,7 +246,7 @@ p.article-subtitle {
 .card-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .card-text {
@@ -300,7 +304,11 @@ p.article-subtitle {
 
 .img-banner-title {
     position: absolute;
+    letter-spacing: 2pt;
+    font-size:52px;
+    font-weight: 800;
     bottom: 10%;
+    text-transform: capitalize;
 }
 
 .img-video {

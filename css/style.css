@@ -3,12 +3,6 @@
 /* Media Queries */
 /* Colors */
 @import url(all.css);
-/*********/
-/* Fonts */
-/*********/
-@font-face {
-  font-family: 'Avenir-Light';
-  src: url("../fonts/Avenir-Light.ttf"); }
 /*******************/
 /* Global Elements */
 /*******************/
@@ -84,13 +78,19 @@ strong {
   border: 1px solid #063ea0;
   font-family: 'Montserrat', sans-serif;
   font-size: 13pt;
-  font-weight: 600;}
+  font-weight: 600; }
 
 .btn-primary:hover {
   background-color: #5292FF; }
 
 .btn-rounded {
   border-radius: 10px; }
+
+.lead p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 36px;
+  font-size: 20px;
+  color: #E6E6E6; }
 
 .placeholder {
   background-color: #efefef;
@@ -186,13 +186,6 @@ p.article-subtitle {
   font-size: 16px;
   color: #ffffff; }
 
-.lead p{
-  font-family: 'Open Sans', sans-serif;
-  line-height: 36px;
-  font-size: 20px;
-  color: #E6E6E6;
-}
-
 /* Cards */
 .card {
   background-color: rgba(235, 235, 235, 0);
@@ -255,7 +248,7 @@ p.article-subtitle {
 .img-banner-title {
   position: absolute;
   letter-spacing: 2pt;
-  font-size:52px;
+  font-size: 52px;
   font-weight: 800;
   bottom: 10%;
   text-transform: capitalize; }
