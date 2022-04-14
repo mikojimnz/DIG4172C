@@ -90,8 +90,8 @@ strong {
 /***********/
 /* Utility */
 .btn-primary {
-  background-color: #0645b1;
-  border: 1px solid #063ea0;
+  background-color: #15418C;
+  border: 1px solid #245cbd;
   font-family: 'Montserrat', sans-serif;
   font-size: 13pt;
   font-weight: 600; }
@@ -331,7 +331,7 @@ p.article-subtitle {
 
 /* Navs */
 .dropdown-menu {
-  background-color: #5292FF; }
+  background-color: #15418C; }
 
 .dropdown-item {
   color: #ffffff; }
