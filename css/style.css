@@ -69,7 +69,7 @@ h6 {
 
 nav {
   background-color: #131313;
-  border-bottom: 1px solid #C4C4C4; }
+  border-bottom: 1px solid #696969; }
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -344,7 +344,7 @@ p.article-subtitle {
   font-weight: 800; }
 
 .nav-search {
-  border: 1px solid rgba(235, 235, 235, 0.5);
+  border: 1px solid #535353;
   border-left: none;
   border-collapse: separate;
   border-top-left-radius: 0;
@@ -356,7 +356,7 @@ p.article-subtitle {
   height: 30px; }
 
 .nav-search-btn {
-  border: 1px solid rgba(235, 235, 235, 0.5);
+  border: 1px solid #535353;
   border-right: none;
   border-collapse: separate;
   border-top-left-radius: .5rem;
