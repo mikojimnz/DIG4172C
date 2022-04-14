@@ -15,7 +15,6 @@ $( document ).ready(function() {
     });
 
     $('#latest-feed').append(feed);
-
   }
 
   // Check if has related feed and append
