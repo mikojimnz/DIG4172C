@@ -161,7 +161,7 @@ p.article-subtitle {
   text-transform: uppercase;
   color: #EC1E1E;
   font-weight: 700;
-  font-size: 12x;
+  font-size: 12px;
   margin-bottom: 5px; }
 
 .article-subtitle > i {
@@ -239,7 +239,6 @@ p.article-subtitle {
   font-size: 15px; }
 
 /* Images */
-
 .captioned-img {
   position: relative; }
 
@@ -270,7 +269,7 @@ p.article-subtitle {
   position: relative; }
 
 .img-banner-container > img {
-  width: 99vw;
+  width: 100vw;
   height: 250px;
   margin-left: calc(49% - 50vw);
   object-fit: cover;
