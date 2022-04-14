@@ -242,9 +242,14 @@ p.article-subtitle {
 
 /* Images */
 
-.container img {
+.img-fluid, .article-img, .card img { /* Image Borders for Better Accessibiity*/
   border: 1px solid #2F2F2F;
 }
+
+.jumbotron img { /* Image Borders for Better Accessibiity*/
+  border: 1px solid #696969;
+}
+
 .captioned-img {
   position: relative; }
 
