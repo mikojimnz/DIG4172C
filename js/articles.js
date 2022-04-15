@@ -8,7 +8,7 @@ var articles = {
                     "title": "NASA’s Webb Reaches Alignment Milestone, Optics Working Successfully",
                     "subtitle": "Webb Telescope",
                     "desc": "",
-                    "date": "3 hours ago",
+                    "date": "2 hour ago",
                     "img": "img/home-2.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -16,7 +16,7 @@ var articles = {
                     "title": "NASA Spots Giant Debris Cloud Created by Clashing Celestial Bodies",
                     "subtitle": "Spitzer Telescope",
                     "desc": "",
-                    "date": "5 hours ago",
+                    "date": "4 hours ago",
                     "img": "img/home-3.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -24,41 +24,41 @@ var articles = {
                     "title": "NASA Mourns Passing of Visionary Heliophysicist Eugene Parker",
                     "subtitle": "Parker Solar Probe",
                     "desc": "",
-                    "date": "10 hours ago",
-                    "img": "img/home-3.jpg",
+                    "date": "6 hours ago",
+                    "img": "img/home-4.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
                 {
                     "title": "NASA System Predicts Impact of Small Asteroid",
                     "subtitle": "Asteroids",
                     "desc": "",
-                    "date": "12 hours ago",
-                    "img": "img/home-4.jpg",
+                    "date": "8 hours ago",
+                    "img": "img/home-5.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
                 {
                     "title": "NASA Extends Ingenuity Helicopter Mission",
                     "subtitle": "Mars",
                     "desc": "",
-                    "date": "13 hours ago",
-                    "img": "img/home-5.jpg",
+                    "date": "12 hours ago",
+                    "img": "img/home-6.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 }
             ],
             "related": [
                 {
-                    "title": "Artemis I in Moonlight",
-                    "subtitle": "Image of the Day",
-                    "desc": "Earth's Moon is seen rising behind NASA’s Space Launch System (SLS) rocket with the Orion spacecraft aboard atop a mobile launcher as it rolls out to Launch Complex 39B for the first time, Thursday, March 17, 2022, at NASA’s Kennedy Space Center in Florida.",
-                    "date": "Mar 18, 22",
-                    "img": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/nhq202203170041.jpg",
+                    "title": "NASA Finds New Way to Monitor Underground Water Loss",
+                    "subtitle": "Water",
+                    "desc": "Researchers have untangled puzzling patterns of sinking and rising land to pin down the underground locations where water is being pumped for irrigation.",
+                    "date": "Apr 15, 2022",
+                    "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/1-groundwater-final-16_0.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
                 {
                     "title": "March Equinox Welcomes ‘Astronomical’ Spring",
                     "subtitle": "Equinox",
                     "desc": "Did you know our planet has two types of seasons? They are meteorological and astronomical. What’s the difference?",
-                    "date": "Mar 18, 2022",
+                    "date": "Apr 15, 2022",
                     "img": "https://blogs.nasa.gov/Watch_the_Skies/wp-content/uploads/sites/193/2022/03/equinox4_0-1024x576-1-768x432.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -66,7 +66,7 @@ var articles = {
                     "title": "NASA Astronauts Complete Spacewalk for Solar Array Work",
                     "subtitle": "Spacewalk",
                     "desc": "NASA astronauts Kayla Barron and Raja Chari concluded their spacewalk at 3:06 p.m. EDT after 6 hours and 54 minutes in preparation for upcoming solar array installation.",
-                    "date": "Mar 16, 2022",
+                    "date": "Apr 15, 2022",
                     "img": "https://blogs.nasa.gov/spacestation/wp-content/uploads/sites/240/2022/03/blog_kayla_eva79_031522e.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -74,7 +74,7 @@ var articles = {
                     "title": "NASA to Discuss Progress as Webb Telescope’s Mirrors Align",
                     "subtitle": "Webb Telescope",
                     "desc": "NASA will hold a virtual media briefing at noon EDT Wednesday, March 16, to provide an update on the James Webb Space Telescope’s mirror alignment. The briefing will air live on NASA TV, the NASA app, and the agency’s website.",
-                    "date": "Mar 14, 2022",
+                    "date": "Apr 14, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/33433274343_277deba9eb_o_0.jpg?itok=3WvvaNMS",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -82,7 +82,7 @@ var articles = {
                     "title": "NASA to Air Briefing, Spacewalks to Upgrade Space Station",
                     "subtitle": "Expedition 66",
                     "desc": "Crew members from International Space Station Expedition 66 will conduct two spacewalks Tuesday, March 15, and Wednesday, March 23, to continue upgrades to the orbiting laboratory.",
-                    "date": "Mar 13, 2022",
+                    "date": "Apr 13, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/51732390695_6d2609b78a_k.jpg?itok=OUe5kAxU",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -90,7 +90,7 @@ var articles = {
                     "title": "Three Space Station Studies Helping Scientists Understand the Early Universe",
                     "subtitle": "Space Station Research",
                     "desc": "Research conducted aboard the International Space Station is helping scientists answer questions about the formation of the universe and origins of life on Earth.",
-                    "date": "Mar 9, 2022",
+                    "date": "Apr 11, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/side_image/public/thumbnails/image/01_iss057e105672_large.jpg?itok=xeRQhhUk",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 }
@@ -113,7 +113,7 @@ var articles = {
                     "title": "Artemis I Map",
                     "subtitle": "Moon to Mars",
                     "desc": "Artemis I will be the first integrated flight test of NASA’s deep space exploration system: the Orion spacecraft, Space Launch System (SLS) rocket and the ground systems at Kennedy Space Center in Cape Canaveral, Florida.",
-                    "date": "Feb 09, 2018",
+                    "date": "Apr 09, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/artemis_i_3_28_22.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -168,7 +168,7 @@ var articles = {
                     "title": "NASA Invites Media to Next SpaceX Commercial Crew Space Station Launch",
                     "subtitle": "Commercial Space",
                     "desc": "Media accreditation now is open for the launch of the fourth SpaceX Crew Dragon spacecraft and Falcon 9 rocket that will carry astronauts to the International Space Station for a science expedition mission. This mission is part of NASA’s Commercial Crew Program.",
-                    "date": "Mar 02, 22",
+                    "date": "Mar 02, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/51846702013_a0cc55100a_k.jpeg?itok=Wv_WQikA",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -215,7 +215,7 @@ var articles = {
                     "title": "NASA, SpaceX Launch DART: First Planetary Defense Test Mission",
                     "subtitle": "Press Release",
                     "desc": "NASA’s Double Asteroid Redirection Test (DART), the world’s first full-scale mission to test technology for defending Earth against potential asteroid or comet hazards, launched Wednesday at 1:21 a.m.",
-                    "date": "Apr 12, 22",
+                    "date": "Apr 12, 2022",
                     "img": "https://blogs.nasa.gov/dart/wp-content/uploads/sites/328/2021/11/DART-Launch-1.jpg",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -270,7 +270,7 @@ var articles = {
                     "title": "New Tests Evaluate Mission Readiness of Astronauts Upon Landing",
                     "subtitle": "Human Research",
                     "desc": "Have you ever felt off-balance after being on amusement rides or gotten motion sickness on a boat? Astronauts feel something similar that can be more intense when they return to Earth from space.",
-                    "date": "Apr 12, 22",
+                    "date": "Apr 12, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/nasa-astronaut-obstacle-course-1.jpg?itok=jv05hb-4",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -325,7 +325,7 @@ var articles = {
                     "title": "New Tests Evaluate Mission Readiness of Astronauts Upon Landing",
                     "subtitle": "Human Research",
                     "desc": "Have you ever felt off-balance after being on amusement rides or gotten motion sickness on a boat? Astronauts feel something similar that can be more intense when they return to Earth from space.",
-                    "date": "Apr 12, 22",
+                    "date": "Apr 12, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/full_width/public/thumbnails/image/nasa-astronaut-obstacle-course-1.jpg?itok=jv05hb-4",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
@@ -380,7 +380,7 @@ var articles = {
                     "title": "Connect with NASA on Social Media this Earth Day",
                     "subtitle": "Earth",
                     "desc": "Life on Earth is chaotic and complex, and endlessly beautiful.",
-                    "date": "Apr 08, 22",
+                    "date": "Apr 08, 2022",
                     "img": "https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/insta_mockup.png",
                     "link": "https://mikojimnz.github.io/DIG4172C/article.html"
                 },
