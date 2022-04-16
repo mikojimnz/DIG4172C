@@ -23,7 +23,6 @@ $('button.schedule').on('click', function(e){
         $('#collapse' + $(this).attr('data-target')).toggleClass('show');
         $('button.schedule').removeClass('btn-light').addClass('btn-outline-light');
     } else {
-
         // Close current collapse, open new collapse
         $('button.schedule').removeClass('btn-light').addClass('btn-outline-light');
         $(this).removeClass('btn-outline-light').addClass('btn-light');
